@@ -426,11 +426,64 @@
         </div>  
     </section>
 
+    <!--get update model trigger-->
+    <section class="bg-light">
+        <div class="container">
+         <div class="text-center">
+            <h2>Stay in the loop</h2>
+            <p class="lead">Get the latest updates as they happen....</p>
+         </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <p>
+                    Want to instantly capture readers? No matter who you are or what genre your book falls
+                                into—nothing beats getting engrossed in a book description that leaves a reader wanting more. 
+                                Short and long book descriptions both serve a purpose—to make you and your book look good. 
+                                Before you start writing,here are a few things you need to know.</p>
+                    Review by Mario
+                </p>
+                <button class="btn btn-primary" data-bs-toggle="modal"
+                 data-bs-target="#reg-modal">Register for update</button>
+            </div>
+        </div>
+    </section>
+    <!--model itself-->
+    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title"
+     aria-hidden="true">
+       <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Get the latest Updates</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" 
+                aria-lable="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Want to instantly capture readers? No matter who you are or what genre your book falls
+                    into—nothing beats getting engrossed in a book description that leaves a reader wanting more. 
+                    Short and long book descriptions.
+                </p>
+                <label for="modal-email" class="from-lable"Your email address:></label>
+                <input type="email" 
+                class="form-control" 
+                id="modal-email" 
+                placeholder="eg: masd123@gmail.com">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary">submit</button>
+            </div>
+        </div>
+       </div>
+    </div>
+
     <script>
+        //tool tip function
         const tooltips = document.querySelectorAll('.tt')
         tooltips.forEach(t=>{
          new bootstrap.Tooltip(t)
         })
+
+
      </script>
          
 </body>
