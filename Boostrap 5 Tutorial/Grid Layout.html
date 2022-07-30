@@ -88,7 +88,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="intro">
         <div class="container-lg">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-5 text-center text-md-start">
@@ -101,9 +101,14 @@
                     </p>
 
                     <a href="#pricing" class="btn btn-secondary">Buy now</a>
+                    <!--open sidebar / offcanvas-->
+                    <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" role="button"
+                    aria-controls="sidebar">
+                       Explore my other books
+                    </a>
                 </div>
                 <div class="col-md-5 text-center d-none d-md-block">
-                    <!--tooltip-->>
+                    <!--tooltip-->
                     <span class="tt" data-ps-placement="bottom" title="Diary of a Wimpy Kid Book COVER">
                     <img class="img-fluid " src="/Boostrap 5 Tutorial/asserts/book2.jpeg" alt="book">
                     </span>
@@ -474,6 +479,21 @@
             </div>
         </div>
        </div>
+    </div>
+
+    <!--offcanves-->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar"
+     aria-labelledby="sidebar-lable">
+      <div class="offcaavse-header">
+          <h5 class="offcanvas-title" id="sidebar-lable">My Other Books</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <div class="offcanvase-body">
+              <p>Want to instantly capture readers? No matter who you are or what genre your book falls
+                into—nothing beats getting engrossed in a book description that leaves a reader wanting more. 
+                Short and long book descriptions.</p>
+          </div>
+      </div>
+       
     </div>
 
     <script>
